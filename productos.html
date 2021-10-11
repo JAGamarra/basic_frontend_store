@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Frontend Store Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlaces" href="index.html">Tienda</a>
+        <a class="navegacion__enlaces" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Vue JS</h1>
+
+        <div class="camisa">
+
+            <img src="/img/1.jpg" alt="Imagen del producto" class="camisa__imagen">
+            
+            <div class="camisa__contenido">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus dolorum nisi, aliquam voluptatem eos suscipit voluptate doloribus, nemo esse quia consequatur fugiat, officia quis sit neque sed facilis blanditiis aut!
+                </p>
+
+                <form class="formulario">
+                    <select name="" id="" class="formulario__campo">
+                        <option value="" disabled selected>-- Seleccionar talla --</option>
+                        <option value="">S</option>
+                        <option value="">M</option>
+                        <option value="">L</option>
+
+                    </select>
+                    <input class="formulario__campo" type="number" min="0" id="" placeholder="Cantidad">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copy">Copyright &copy;. Frontend Store - Todos los derechos reservados. 2021</p>
+    </footer>
+</body>
+
+</html>
